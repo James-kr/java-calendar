@@ -17,7 +17,7 @@ public class Calendar {
 //		} else System.out.printf("2월의 최대일은 28일 입니다");
 //	}
 
-	public final int[] MAX_DAY = {31,28,31,30,31,30,31,30,31,30,31,31};
+	public static final int[] MAX_DAY = {31,28,31,30,31,30,31,30,31,30,31,31};
 	public int getMaxDay(int month) {
 		return MAX_DAY[month - 1];
 	}
